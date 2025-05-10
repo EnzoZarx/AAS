@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "AAS",
+    "version": "1.0",
+    "description": "Auto Ads Skipper for YouTube videos...",
+    "action": {
+        "default_icon": "aas.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["skip.js"],
+        "run_at": "document_start"
+      }
+    ]
+}
