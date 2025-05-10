@@ -10,7 +10,25 @@ Auto Ads Skipper for Youtube videos...
 
 ## Installation
 
+### Installation
 
+1. **Download the Extension**  
+    - Clone the repository:  
+      ```bash
+      git clone https://github.com/EnzoZarx/AAS.git
+      ```
+    - Download it from https://github.com/EnzoZarx/AAS
+
+2. **Load the Extension in Your Browser**  
+    - Open your browser's extensions page:  
+      - For Chrome: Go to `chrome://extensions/`  
+      - For Edge: Go to `edge://extensions/`  
+      - For Opera: Go to `opera://extensions/`  
+    - Enable "Developer mode" (usually a toggle in the top-right corner).  
+    - Click "Load unpacked" and select the project directory.
+
+3. **Start Using the Extension**  
+    - The extension should now be active and ready to skip ads automatically.
 
 ## How It Works
 
