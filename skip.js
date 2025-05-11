@@ -5,7 +5,6 @@ const observer = new MutationObserver((mutations, obs) => {
         const video = document.getElementsByTagName("video")[0];
         if (video) {
             video.muted = true;
-            video.currentTime = video.duration - 2
             video.playbackRate = 10;
         }
     }
