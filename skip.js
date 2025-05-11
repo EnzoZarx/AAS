@@ -4,8 +4,9 @@ const observer = new MutationObserver((mutations, obs) => {
     if (adShowing) {
         const video = document.getElementsByTagName("video")[0];
         if (video) {
-        video.playbackRate = 10;
-        video.muted = true;
+            video.muted = true;
+            video.currentTime = video.duration - 2
+            video.playbackRate = 10;
         }
     }
 });
