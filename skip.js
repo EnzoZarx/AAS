@@ -9,7 +9,7 @@ const observer = new MutationObserver((mutations, obs) => {
         }
     }
 	
-	const alertMessagePopUp = document.querySelector("ytd-popup-container");
+	const alertMessagePopUp = document.querySelector("ytd-popup-container:has(ytd-enforcement-message-view-model)");
 	if (alertMessagePopUp) {
 		alertMessagePopUp.remove()
 	}
