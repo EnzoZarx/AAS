@@ -8,11 +8,6 @@ const observer = new MutationObserver((mutations, obs) => {
             video.playbackRate = 10;
         }
     }
-	
-	const alertMessagePopUp = document.querySelector("ytd-popup-container:has(ytd-enforcement-message-view-model)");
-	if (alertMessagePopUp) {
-		alertMessagePopUp.remove()
-	}
 });
   
 observer.observe(document, {
